@@ -1,7 +1,7 @@
 import cv2
 from seat_detect import Color_detect as cd, grid as g
 
-def main():
+def main_():
     ################################
     # 분석할 이미지   : PC방의 좌석 배치도
     ################################
@@ -57,4 +57,4 @@ def main():
     if key == 27:
         cv2.destroyAllWindows()
 
-main()
+main_()
