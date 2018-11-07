@@ -2,7 +2,7 @@ from seat_detect import Main2, image_generation
 
 f0 = open('diff_check.txt','w')
 
-for i in range(5):
+for i in range(1):
     f0.write("Test Case no %d\n"%i)
     image_generation.imageGen()
     Main2.main()

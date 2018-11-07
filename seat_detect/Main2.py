@@ -15,7 +15,7 @@ def main():
     # 분석할 pc방 좌석도 가져오기
     image = cv2.imread("random_generated.jpg")
     # cv2.line(image, (427, 0), (427, 50), (255, 0, 0), 2)
-    #cv2.imshow("pcroom", image)
+    cv2.imshow("pcroom", image)
 
     #json 파일 만들기 위한 dictionary
     dic_for_json = {}
@@ -62,8 +62,8 @@ def main():
         pimage = ip.set_roi(image, roi_points[i * 2], roi_points[i * 2 + 1])  # 전체 이미지, x좌표, y좌표
         image_parts.append(pimage)  # 쪼개진 이미지 영역 보관
 
-        #cv2.imshow("pimage", pimage)
-        #cv2.waitKey(0)
+        cv2.imshow("pimage", pimage)
+        cv2.waitKey(0)
 
         # 기존 이미지의 threshold 역시 같은 규격으로 분할한다.
         pthresh = ip.set_roi(thresh, roi_points[i * 2], roi_points[i * 2 + 1])
@@ -110,9 +110,7 @@ def main():
             db_x, db_y = b.starting_point(i, roi_points, y_points[j][0])
             print("x: ", db_x, ", y: ", db_y)
 
-            #f.write("%d %d" % (db_x, db_y))
-
-            #f.write("\n")
+            #f.write("%d %d\n" % (db_x, db_y))
 
             # DB에 저장된 숫자를 다시 matrix 형으로 반환
             new_matrix = b.num_to_matrix(num, roi_matrix)
@@ -123,7 +121,7 @@ def main():
 
             seats.append({"x": db_x, "y": db_y, "list": roi_matrix})
             # print("new ", new_matrix)
-            #key = cv2.waitKey(0)
+            key = cv2.waitKey(0)
 
     #json_convert함수에 dictionary 넘겨줌
     dic_for_json["seats"] = seats
