@@ -4,7 +4,7 @@ f0 = open('diff_check.txt','w')
 
 for i in range(1000):
     f0.write("Test Case no %d\n"%i)
-    imageGen()
+    image_generation.imageGen()
     Main2.main()
 
     # Open file for reading in text mode (default mode)
@@ -30,17 +30,25 @@ for i in range(1000):
 
             # If a line does not exist on file2 then mark the output with + sign
             if f2_line == '' and f1_line != '':
-                f0.write(">+", "Line-%d\n" % line_no, f1_line)
+                f0.write(">+")
+                f0.write("Line-%d\n" % line_no)
+                f0.write(f1_line)
             # otherwise output the line on file1 and mark it with > sign
             elif f1_line != '':
-                f0.write(">", "Line-%d\n" % line_no, f1_line)
+                f0.write(">")
+                f0.write("Line-%d\n" % line_no)
+                f0.write(f1_line)
 
             # If a line does not exist on file1 then mark the output with + sign
             if f1_line == '' and f2_line != '':
-                f0.write("<+", "Line-%d\n" % line_no, f2_line)
+                f0.write("<+")
+                f0.write("Line-%d\n" % line_no)
+                f0.write(f2_line)
             # otherwise output the line on file2 and mark it with < sign
             elif f2_line != '':
-                f0.write("<", "Line-%d\n" % line_no, f2_line)
+                f0.write("<")
+                f0.write("Line-%d\n" % line_no)
+                f0.write(f2_line)
 
             # Print a blank line
                 f0.write("\n")
