@@ -25,16 +25,14 @@ def imageGen():
 
     for i in range(42):
         x,y = map(int, f.readline().split())
-        fw.write("%d %d\n" % (x, y))
+        #fw.write("%d %d\n" % (x, y))
         num = f.readline()
 
         for j in range(int(num)):
             #rec = Rectangle(Point(x, y), Point(x+seat_w, y+seat_h))
-            col = randint(0,2)
+            col = randint(1,2)
 
-            if col==0:
-                colrgb = color_rgb(0, 0, 0)
-            elif col==1:
+            if col==1:
                 colrgb = color_rgb(67, 65, 66)
             else:
                 colrgb = color_rgb(64, 132, 34)

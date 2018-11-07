@@ -1,0 +1,1093 @@
+Test Case no 0
+>Line-25
+1<Line-25
+1 1 2 2
+>Line-26
+1<Line-26
+1 2 2 2 1
+>Line-27
+1<Line-27
+1 1 2 1 1
+>Line-28
+1<Line-28
+1 2 2 2 2
+>Line-29
+2<Line-29
+2 2 2 2 2
+>Line-30
+2<Line-30
+2 1 1 2 1
+>Line-31
+2<Line-31
+2 2 1 1 2
+>Line-32
+1<Line-32
+1 2 2 2 2
+>Line-33
+1<Line-33
+1 1 1 1 1
+>Line-34
+2<Line-34
+2 1 1 2 1
+>Line-35
+2<Line-35
+2 2 2 2 1
+>Line-36
+1 2<Line-36
+1 2 2 1 1 1 1
+>Line-37
+2 2<Line-37
+1 1 2 1 2 1 1
+>Line-38
+1 2<Line-38
+2 2 2 2 1 2 2
+>Line-39
+2 2<Line-39
+1 2 1 1 1
+>Line-40
+2 2<Line-40
+2 1 1 1 1
+>Line-41
+1 1<Line-41
+2 1 1 2 1 2
+>Line-42
+2 1<Line-42
+1 1 2 1 2 1
+>Line-43
+2 2<Line-43
+2 1 1 1 2 1
+>Line-44
+1 1<Line-44
+2 2 1 2 1 2
+>+Line-45
+1 1
+>+Line-46
+2 2
+>+Line-47
+2
+>+Line-48
+2
+>+Line-49
+1
+>+Line-50
+2
+>+Line-51
+2
+>+Line-52
+2
+>+Line-53
+1
+>+Line-54
+2
+>+Line-55
+1
+>+Line-56
+2
+>+Line-57
+2
+>+Line-58
+1
+>+Line-59
+1
+>+Line-60
+2
+>+Line-61
+2
+>+Line-62
+1
+>+Line-63
+2
+>+Line-64
+2
+>+Line-65
+1
+>+Line-66
+1
+>+Line-67
+1
+>+Line-68
+1
+>+Line-69
+1
+>+Line-70
+2
+>+Line-71
+1
+>+Line-72
+2
+>+Line-73
+2
+>+Line-74
+1
+>+Line-75
+2
+>+Line-76
+2
+>+Line-77
+2
+>+Line-78
+1
+>+Line-79
+2
+>+Line-80
+2
+>+Line-81
+1
+>+Line-82
+1
+>+Line-83
+1
+>+Line-84
+1
+>+Line-85
+2
+>+Line-86
+2
+>+Line-87
+2
+>+Line-88
+2
+>+Line-89
+1
+>+Line-90
+1
+>+Line-91
+1
+>+Line-92
+2
+>+Line-93
+1
+>+Line-94
+1
+>+Line-95
+1
+>+Line-96
+1
+>+Line-97
+2
+>+Line-98
+1
+>+Line-99
+1
+>+Line-100
+2
+>+Line-101
+1
+>+Line-102
+1
+>+Line-103
+2
+>+Line-104
+1
+>+Line-105
+2
+>+Line-106
+1
+>+Line-107
+1
+>+Line-108
+1
+>+Line-109
+1
+>+Line-110
+2
+>+Line-111
+2
+>+Line-112
+1
+>+Line-113
+1
+>+Line-114
+1
+>+Line-115
+2
+>+Line-116
+2
+>+Line-117
+1
+>+Line-118
+1
+>+Line-119
+2
+>+Line-120
+1
+>+Line-121
+1
+>+Line-122
+2
+Test Case no 1
+>Line-25
+1<Line-25
+1 2 2 1
+>Line-26
+2<Line-26
+2 2 2 2 2
+>Line-27
+2<Line-27
+2 2 1 1 1
+>Line-28
+1<Line-28
+1 1 1 2 2
+>Line-29
+2<Line-29
+2 1 2 1 2
+>Line-30
+2<Line-30
+2 1 1 2 2
+>Line-31
+1<Line-31
+1 1 2 2 1
+>Line-32
+1<Line-32
+1 2 2 1 2
+>Line-33
+1<Line-33
+1 1 1 2 2
+>Line-34
+2<Line-34
+2 2 1 2 1
+>Line-35
+1<Line-35
+1 1 1 2 2
+>Line-36
+2<Line-36
+1 2 1 1 2 1 1
+>Line-37
+2<Line-37
+2 2 1 1 2 2 1
+>Line-38
+2<Line-38
+1 1 2 2 2 1 1
+>Line-39
+1<Line-39
+2 1 1 2 2
+>Line-40
+1<Line-40
+2 2 1 2 1
+>Line-41
+1<Line-41
+2 1 1 2 2 1
+>Line-42
+1<Line-42
+1 1 2 1 2 2
+>Line-43
+2<Line-43
+1 1 2 1 1 1
+>Line-44
+1<Line-44
+2 1 1 2 1 1
+>+Line-45
+2
+>+Line-46
+1
+>+Line-47
+2
+>+Line-48
+2
+>+Line-49
+1
+>+Line-50
+1
+>+Line-51
+2
+>+Line-52
+1
+>+Line-53
+2
+>+Line-54
+2
+>+Line-55
+1
+>+Line-56
+1
+>+Line-57
+1
+>+Line-58
+1
+>+Line-59
+2
+>+Line-60
+1
+>+Line-61
+2
+>+Line-62
+1
+>+Line-63
+2
+>+Line-64
+2
+>+Line-65
+1
+>+Line-66
+2
+>+Line-67
+2
+>+Line-68
+2
+>+Line-69
+2
+>+Line-70
+1
+>+Line-71
+2
+>+Line-72
+2
+>+Line-73
+2
+>+Line-74
+1
+>+Line-75
+2
+>+Line-76
+2
+>+Line-77
+1
+>+Line-78
+2
+>+Line-79
+1
+>+Line-80
+2
+>+Line-81
+1
+>+Line-82
+2
+>+Line-83
+2
+>+Line-84
+2
+>+Line-85
+1
+>+Line-86
+1
+>+Line-87
+2
+>+Line-88
+2
+>+Line-89
+2
+>+Line-90
+1
+>+Line-91
+1
+>+Line-92
+2
+>+Line-93
+1
+>+Line-94
+1
+>+Line-95
+1
+>+Line-96
+1
+>+Line-97
+1
+>+Line-98
+1
+>+Line-99
+2
+>+Line-100
+1
+>+Line-101
+1
+>+Line-102
+1
+>+Line-103
+2
+>+Line-104
+2
+>+Line-105
+1
+>+Line-106
+1
+>+Line-107
+1
+>+Line-108
+2
+>+Line-109
+2
+>+Line-110
+2
+>+Line-111
+2
+>+Line-112
+1
+>+Line-113
+1
+>+Line-114
+2
+>+Line-115
+2
+>+Line-116
+2
+>+Line-117
+2
+>+Line-118
+2
+>+Line-119
+1
+>+Line-120
+2
+>+Line-121
+2
+>+Line-122
+1
+>+Line-123
+1
+>+Line-124
+1
+>+Line-125
+2
+>+Line-126
+1
+>+Line-127
+1
+>+Line-128
+2
+>+Line-129
+1
+>+Line-130
+1
+>+Line-131
+1
+>+Line-132
+1
+>+Line-133
+1
+Test Case no 2
+>Line-25
+2<Line-25
+2 2 1 2
+>Line-26
+2<Line-26
+2 2 1 2 2
+>Line-27
+1<Line-27
+1 2 1 2 2
+>Line-28
+2<Line-28
+2 2 1 2 1
+>Line-29
+1<Line-29
+1 1 2 2 1
+>Line-30
+1<Line-30
+1 2 2 2 2
+>Line-31
+1<Line-31
+1 1 1 2 1
+>Line-32
+1<Line-32
+1 1 2 2 2
+>Line-33
+1<Line-33
+1 1 2 1 1
+>Line-34
+2<Line-34
+2 1 1 2 1
+>Line-35
+1<Line-35
+1 2 2 1 1
+>Line-36
+2 1<Line-36
+2 1 2 1 2 2 2
+>Line-37
+2 1<Line-37
+1 1 2 2 2 2 2
+>Line-38
+2 1<Line-38
+1 2 1 1 2 1 1
+>Line-39
+2 1<Line-39
+1 1 1 1 2
+>Line-40
+1 2<Line-40
+2 1 2 1 2
+>Line-41
+2 2<Line-41
+2 2 1 1 2 2
+>Line-42
+1 1<Line-42
+1 2 1 2 2 2
+>Line-43
+1 2<Line-43
+1 1 1 1 1 2
+>Line-44
+1 2<Line-44
+2 1 2 2 1 2
+>+Line-45
+1 1
+>+Line-46
+2 2
+>+Line-47
+2
+>+Line-48
+2
+>+Line-49
+2
+>+Line-50
+2
+>+Line-51
+2
+>+Line-52
+2
+>+Line-53
+2
+>+Line-54
+2
+>+Line-55
+1
+>+Line-56
+2
+>+Line-57
+1
+>+Line-58
+2
+>+Line-59
+2
+>+Line-60
+1
+>+Line-61
+1
+>+Line-62
+2
+>+Line-63
+1
+>+Line-64
+2
+>+Line-65
+1
+>+Line-66
+1
+>+Line-67
+1
+>+Line-68
+2
+>+Line-69
+1
+>+Line-70
+1
+>+Line-71
+1
+>+Line-72
+2
+>+Line-73
+2
+>+Line-74
+1
+>+Line-75
+1
+>+Line-76
+2
+>+Line-77
+1
+>+Line-78
+1
+>+Line-79
+2
+>+Line-80
+1
+>+Line-81
+1
+>+Line-82
+2
+>+Line-83
+2
+>+Line-84
+1
+>+Line-85
+1
+>+Line-86
+2 1
+>+Line-87
+2 2
+>+Line-88
+1 1
+>+Line-89
+1 1
+>+Line-90
+2 1
+>+Line-91
+1 1
+>+Line-92
+1 2
+>+Line-93
+1 1
+>+Line-94
+2 2
+>+Line-95
+2
+>+Line-96
+2
+>+Line-97
+2
+>+Line-98
+2
+>+Line-99
+2
+>+Line-100
+2
+>+Line-101
+2
+>+Line-102
+1
+>+Line-103
+1
+>+Line-104
+2
+>+Line-105
+2
+>+Line-106
+1
+>+Line-107
+2
+>+Line-108
+2
+>+Line-109
+2
+>+Line-110
+2
+>+Line-111
+2
+>+Line-112
+2
+>+Line-113
+1
+Test Case no 3
+>Line-25
+1<Line-25
+1 2 1 1
+>Line-26
+2<Line-26
+2 1 2 1 1
+>Line-27
+1<Line-27
+1 1 1 1 1
+>Line-28
+1<Line-28
+1 2 1 1 1
+>Line-29
+1<Line-29
+1 2 1 2 1
+>Line-30
+1<Line-30
+1 1 1 2 2
+>Line-31
+2<Line-31
+2 2 2 1 1
+>Line-32
+1<Line-32
+1 1 2 2 1
+>Line-33
+2<Line-33
+2 1 2 2 1
+>Line-34
+2<Line-34
+2 1 2 1 2
+>Line-35
+1<Line-35
+1 1 1 1 2
+>Line-36
+2<Line-36
+1 1 2 2 2 2 1
+>Line-37
+1<Line-37
+1 2 2 2 2 1 2
+>Line-38
+1<Line-38
+2 1 1 1 2 2 1
+>Line-39
+2<Line-39
+1 2 2 2 2
+>Line-40
+2<Line-40
+2 1 1 1 2
+>Line-41
+1<Line-41
+1 2 2 1 2 2
+>Line-42
+2<Line-42
+2 1 1 1 2 1
+>Line-43
+1<Line-43
+1 2 1 1 1 1
+>Line-44
+1<Line-44
+2 1 1 2 2 2
+>+Line-45
+1
+>+Line-46
+1
+>+Line-47
+1
+>+Line-48
+2
+>+Line-49
+1
+>+Line-50
+1
+>+Line-51
+1
+>+Line-52
+1
+>+Line-53
+2
+>+Line-54
+2
+>+Line-55
+2
+>+Line-56
+2
+>+Line-57
+1
+>+Line-58
+1
+>+Line-59
+1
+>+Line-60
+1
+>+Line-61
+1
+>+Line-62
+2
+>+Line-63
+2
+>+Line-64
+1
+>+Line-65
+2
+>+Line-66
+2
+>+Line-67
+1
+>+Line-68
+1
+>+Line-69
+1
+>+Line-70
+1
+>+Line-71
+1
+>+Line-72
+1
+>+Line-73
+2
+>+Line-74
+1
+>+Line-75
+1
+>+Line-76
+1
+>+Line-77
+2
+>+Line-78
+2
+>+Line-79
+1
+>+Line-80
+1
+>+Line-81
+2
+>+Line-82
+1
+>+Line-83
+2
+>+Line-84
+1
+>+Line-85
+2
+>+Line-86
+1
+>+Line-87
+2
+>+Line-88
+1
+>+Line-89
+2
+>+Line-90
+1
+>+Line-91
+2
+>+Line-92
+1
+>+Line-93
+2
+>+Line-94
+1
+>+Line-95
+2
+>+Line-96
+1
+>+Line-97
+2 2
+>+Line-98
+2 2
+>+Line-99
+1 1
+>+Line-100
+2 2
+>+Line-101
+1 1
+>+Line-102
+2 1
+>+Line-103
+1 1
+>+Line-104
+1 1
+>+Line-105
+1 2
+>+Line-106
+2
+>+Line-107
+2
+>+Line-108
+2
+>+Line-109
+2
+>+Line-110
+2
+>+Line-111
+2
+>+Line-112
+2
+>+Line-113
+1
+>+Line-114
+2
+>+Line-115
+2
+>+Line-116
+1
+>+Line-117
+2
+>+Line-118
+2
+>+Line-119
+1
+>+Line-120
+1
+>+Line-121
+2
+>+Line-122
+1
+>+Line-123
+2
+>+Line-124
+1
+Test Case no 4
+>Line-25
+1 2<Line-25
+1 2 2 1
+>Line-26
+1 1<Line-26
+1 1 2 1 2
+>Line-27
+2 2<Line-27
+2 2 1 1 1
+>Line-28
+2 1<Line-28
+2 1 2 1 2
+>Line-29
+2 1<Line-29
+2 1 2 1 1
+>Line-30
+2 2<Line-30
+2 2 2 2 1
+>Line-31
+2 1<Line-31
+2 1 2 2 1
+>Line-32
+2 2<Line-32
+2 2 1 1 1
+>Line-33
+1 2<Line-33
+1 2 2 1 2
+>Line-34
+2 1<Line-34
+2 1 2 2 1
+>Line-35
+2 2<Line-35
+2 2 1 2 2
+>Line-36
+2<Line-36
+1 2 2 1 1 2 2
+>Line-37
+2<Line-37
+1 2 1 1 2 2 2
+>Line-38
+1<Line-38
+1 2 1 2 2 2 2
+>Line-39
+2<Line-39
+1 2 1 1 2
+>Line-40
+2<Line-40
+2 1 1 2 2
+>Line-41
+2<Line-41
+1 2 1 1 2 2
+>Line-42
+2<Line-42
+1 1 2 1 2 1
+>Line-43
+1<Line-43
+1 2 1 2 1 1
+>Line-44
+2<Line-44
+2 1 1 1 2 1
+>+Line-45
+2
+>+Line-46
+1
+>+Line-47
+1
+>+Line-48
+1
+>+Line-49
+1
+>+Line-50
+1
+>+Line-51
+1
+>+Line-52
+2
+>+Line-53
+2
+>+Line-54
+1
+>+Line-55
+1
+>+Line-56
+2
+>+Line-57
+2
+>+Line-58
+2
+>+Line-59
+1
+>+Line-60
+2
+>+Line-61
+1
+>+Line-62
+1
+>+Line-63
+1
+>+Line-64
+1
+>+Line-65
+2
+>+Line-66
+1
+>+Line-67
+2
+>+Line-68
+1
+>+Line-69
+1
+>+Line-70
+1
+>+Line-71
+1
+>+Line-72
+2
+>+Line-73
+1
+>+Line-74
+1
+>+Line-75
+1
+>+Line-76
+2
+>+Line-77
+2
+>+Line-78
+2
+>+Line-79
+2
+>+Line-80
+2
+>+Line-81
+1
+>+Line-82
+2
+>+Line-83
+1
+>+Line-84
+2
+>+Line-85
+1
+>+Line-86
+2
+>+Line-87
+1
+>+Line-88
+1
+>+Line-89
+1
+>+Line-90
+1
+>+Line-91
+1
+>+Line-92
+2
+>+Line-93
+1
+>+Line-94
+1
+>+Line-95
+1
+>+Line-96
+1
+>+Line-97
+2
+>+Line-98
+1
+>+Line-99
+2
+>+Line-100
+1
+>+Line-101
+1
+>+Line-102
+2
+>+Line-103
+1
+>+Line-104
+1
+>+Line-105
+2
+>+Line-106
+2
+>+Line-107
+2
+>+Line-108
+2
+>+Line-109
+2
+>+Line-110
+2
+>+Line-111
+1
+>+Line-112
+2
+>+Line-113
+2
+>+Line-114
+2
+>+Line-115
+2
+>+Line-116
+2
+>+Line-117
+1
+>+Line-118
+1
+>+Line-119
+1
+>+Line-120
+2
+>+Line-121
+2
+>+Line-122
+2

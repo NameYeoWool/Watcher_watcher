@@ -63,7 +63,7 @@ def main():
         image_parts.append(pimage)  # 쪼개진 이미지 영역 보관
 
         #cv2.imshow("pimage", pimage)
-        # cv2.waitKey(0)
+        #cv2.waitKey(0)
 
         # 기존 이미지의 threshold 역시 같은 규격으로 분할한다.
         pthresh = ip.set_roi(thresh, roi_points[i * 2], roi_points[i * 2 + 1])
@@ -110,9 +110,9 @@ def main():
             db_x, db_y = b.starting_point(i, roi_points, y_points[j][0])
             print("x: ", db_x, ", y: ", db_y)
 
-            f.write("%d %d" % (db_x, db_y))
+            #f.write("%d %d" % (db_x, db_y))
 
-            f.write("\n")
+            #f.write("\n")
 
             # DB에 저장된 숫자를 다시 matrix 형으로 반환
             new_matrix = b.num_to_matrix(num, roi_matrix)
@@ -123,7 +123,7 @@ def main():
 
             seats.append({"x": db_x, "y": db_y, "list": roi_matrix})
             # print("new ", new_matrix)
-            # key = cv2.waitKey(0)
+            #key = cv2.waitKey(0)
 
     #json_convert함수에 dictionary 넘겨줌
     dic_for_json["seats"] = seats

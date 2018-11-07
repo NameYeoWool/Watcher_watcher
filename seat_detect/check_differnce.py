@@ -2,7 +2,7 @@ from seat_detect import Main2, image_generation
 
 f0 = open('diff_check.txt','w')
 
-for i in range(1000):
+for i in range(5):
     f0.write("Test Case no %d\n"%i)
     image_generation.imageGen()
     Main2.main()
@@ -51,7 +51,7 @@ for i in range(1000):
                 f0.write(f2_line)
 
             # Print a blank line
-                f0.write("\n")
+            f0.write("\n")
 
         # Read the next line from the file
         f1_line = f1.readline()
