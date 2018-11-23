@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 # 사용 외부 라이브러리 graphics, image(PIL)
 from graphics import *
 from random import *

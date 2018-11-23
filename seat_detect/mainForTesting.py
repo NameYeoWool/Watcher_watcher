@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import cv2
 import numpy as np
 from seat_detect import Histogram2 as h, Decide_matrix2 as dm, Image_partitioning as ip, Color_detect2 as cd, \

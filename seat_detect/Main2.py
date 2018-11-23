@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import cv2
 import numpy as np
 from seat_detect import Histogram2 as h, Decide_matrix2 as dm, Image_partitioning as ip, Color_detect2 as cd, \
@@ -5,7 +6,7 @@ from seat_detect import Histogram2 as h, Decide_matrix2 as dm, Image_partitionin
 import json
 
 def json_convert(seats):
-    #받아온 딕셔ㅓ너리로 json파일 생성하는 함수
+    #받아온 딕셔너리로 json파일 생성하는 함수
     fj = open("pc_info.json","w")
     jsonString = json.dumps(seats,ensure_ascii=False)
     fj.write(jsonString)
@@ -127,5 +128,3 @@ def main():
     dic_for_json["seats"] = seats
     json_convert(dic_for_json)
 
-
-main()

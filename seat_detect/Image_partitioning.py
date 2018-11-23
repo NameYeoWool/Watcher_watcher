@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 def set_roi(image, min, max):
     roi = image[min[1]:max[1], min[0]:max[0]]
     #cv2.imshow("roi", line_roi)

@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 #from seat_detect import Histogram2 as h
 '''
 def seat_size(mhist_w, mhist_h):

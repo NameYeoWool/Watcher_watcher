@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 from seat_detect import Main2, image_generation
 
 f0 = open('diff_check.txt','w')

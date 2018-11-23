@@ -1,4 +1,4 @@
-
+# -*- coding: UTF-8 -*-
 def matrix_to_num(matrix):
     # bit_num을 0으로 설정하면,
     #  맨 처음에 01을 넣지 않고 그냥 1만 넣기에 '총 자리 수'에 문제 발생

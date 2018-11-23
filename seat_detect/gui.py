@@ -1,9 +1,10 @@
+# -*- coding: UTF-8 -*-
+
 from pynput import mouse
 from tkinter import *
 from PIL import ImageGrab
 import time
-
-from seat_detect import Main2
+from seat_detect.Main2 import main
 
 root = Tk()
 root.resizable(True, True)
@@ -31,21 +32,21 @@ def screenshot():
     imgGrab.save("screen_shot.jpg")
 
     print("o")
-    Main2.main()
+    main()
 
     root.after(1000,screenshot)
 
 def start():
     global take_shot
     take_shot = True
-    processLbl.config(text="시작 -> press s")
+    processLbl.config(text="시작")
     time.sleep(5)
-    screenshot()
+    root.after(1000,screenshot)
 
 def stop():
     global take_shot
     take_shot = False
-    processLbl.config(text="멈춤 -> press e")
+    processLbl.config(text="멈춤")
 
 
 canvas = Canvas(root)
@@ -53,13 +54,13 @@ canvas.pack(expand=True)
 canvas.bind('<Key>', point)
 canvas.focus_set()
 
-lbl0 = Label(root, text="시작 좌표")
+lbl0 = Label(root, text="시작 좌표 -> press s")
 lbl0.pack()
 
 startLbl = Label(root, text=start_point)
 startLbl.pack()
 
-lbl1 = Label(root, text="끝 좌표")
+lbl1 = Label(root, text="끝 좌표 -> press e")
 lbl1.pack()
 
 endLbl = Label(root, text=" ")

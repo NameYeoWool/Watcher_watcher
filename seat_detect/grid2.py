@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 '''
 def occupied_in_grid(seat_w, seat_h, x, y, obj_x, obj_y, obj_w, obj_h):
     # 검사할 grid의 좌표 범위

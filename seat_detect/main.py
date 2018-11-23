@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import cv2
 from seat_detect import Color_detect as cd, grid as g
 

@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 import cv2
 
 
@@ -17,8 +19,8 @@ def seat_contour_detect(image):
 
 
     cv2.drawContours(image, contours, -1, (0, 0, 255), 1)
-    cv2.imshow('thresh', thr)
-    cv2.imshow('contour', image)
+    #cv2.imshow('thresh', thr)
+    #cv2.imshow('contour', image)
 
     cv2.waitKey(0)
     cv2.destroyAllWindows()

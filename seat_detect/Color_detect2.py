@@ -1,9 +1,11 @@
+# -*- coding: UTF-8 -*-
+
 import cv2
 import numpy as np
 
 def cut_roi(image, min_y, max_y, w):
     line_roi = image[min_y:max_y, 0:w]
-    cv2.imshow("roi", line_roi)
+    #cv2.imshow("roi", line_roi)
 
     return line_roi
 
@@ -65,7 +67,7 @@ def seat_color_detect(roi, seat_list, seat_w, seat_h):
             roi = cv2.rectangle(roi, (x, y), (x + w, y + h), (0, 0, 255), 2)
             empty_list.append((x, y, w, h))
 
-    cv2.imshow("seat_roi", roi)
+    #cv2.imshow("seat_roi", roi)
 
     #print("full:", occupied_list)
     #print("empty: ",empty_list)
