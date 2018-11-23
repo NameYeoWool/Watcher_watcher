@@ -2,7 +2,7 @@ from seat_detect import Main2, image_generation
 
 f0 = open('diff_check.txt','w')
 
-for i in range(1):
+for i in range(100):
     f0.write("Test Case no %d\n"%i)
     image_generation.imageGen()
     Main2.main()
@@ -27,9 +27,14 @@ for i in range(1):
 
         # Compare the lines from both file
         if f1_line != f2_line:
+            f0.write("Line-%d\n" % line_no)
+            f0.write(f1_line)
+            f0.write("\n")
+            f0.write(f2_line)
+            f0.write("\n")
 
             # If a line does not exist on file2 then mark the output with + sign
-            if f2_line == '' and f1_line != '':
+            '''if f2_line == '' and f1_line != '':
                 f0.write(">+")
                 f0.write("Line-%d\n" % line_no)
                 f0.write(f1_line)
@@ -49,7 +54,7 @@ for i in range(1):
                 f0.write("<")
                 f0.write("Line-%d\n" % line_no)
                 f0.write(f2_line)
-
+'''
             # Print a blank line
             f0.write("\n")
 

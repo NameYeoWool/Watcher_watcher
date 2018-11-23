@@ -15,7 +15,7 @@ def main():
     # 분석할 pc방 좌석도 가져오기
     image = cv2.imread("random_generated.jpg")
     # cv2.line(image, (427, 0), (427, 50), (255, 0, 0), 2)
-    cv2.imshow("pcroom", image)
+    #cv2.imshow("pcroom", image)
 
     #json 파일 만들기 위한 dictionary
     dic_for_json = {}
@@ -32,7 +32,7 @@ def main():
 
     # 분석을 위해 이미지 가공
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    ret, thresh = cv2.threshold(gray, 22, 255, cv2.THRESH_BINARY)
+    ret, thresh = cv2.threshold(gray, 30, 255, cv2.THRESH_BINARY)
 
     # 전체 histogram 분석 먼저한다
     hist_w, mhist_w = h.histogram(thresh, 0, image_w, image_h)  # height
@@ -62,8 +62,8 @@ def main():
         pimage = ip.set_roi(image, roi_points[i * 2], roi_points[i * 2 + 1])  # 전체 이미지, x좌표, y좌표
         image_parts.append(pimage)  # 쪼개진 이미지 영역 보관
 
-        cv2.imshow("pimage", pimage)
-        cv2.waitKey(0)
+        #cv2.imshow("pimage", pimage)
+        #cv2.waitKey(0)
 
         # 기존 이미지의 threshold 역시 같은 규격으로 분할한다.
         pthresh = ip.set_roi(thresh, roi_points[i * 2], roi_points[i * 2 + 1])
@@ -121,7 +121,7 @@ def main():
 
             seats.append({"x": db_x, "y": db_y, "list": roi_matrix})
             # print("new ", new_matrix)
-            key = cv2.waitKey(0)
+            #key = cv2.waitKey(0)
 
     #json_convert함수에 dictionary 넘겨줌
     dic_for_json["seats"] = seats

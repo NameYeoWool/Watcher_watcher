@@ -45,7 +45,7 @@ def imageGen():
             #rec.draw(win1)
             draw.rectangle([(x,y),(x+seat_w, y+seat_h)],fill=colrgb)
 
-            x=x+5+seat_w
+            x=x+3+seat_w
 
         fw.write("\n")
     f.close()
